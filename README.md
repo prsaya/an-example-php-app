@@ -4,6 +4,8 @@ This is a PHP app. This is programmed using PHP 8.2.0, Apache Web Server 2.4, HT
 
 The app reads quiz data from MySQL database (version 5.5 or higher) and shows the quiz items in a page. The user can select answer options and score if the choices were correct. End the quiz to see a result page.
 
+The app is started from `index.php`.
+
 ---
 
 ## Notes on MySQL, SQL Script and PHP Configuration:
