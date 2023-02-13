@@ -9,7 +9,7 @@
 
 	try {
 		spl_autoload_register(function ($class_name) {
-    		include __DIR__ . "/" . $class_name . ".php";
+    		    include __DIR__ . "/" . $class_name . ".php";
 		});
 
 		$conn = DatabaseConnection::get();
