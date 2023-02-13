@@ -1,0 +1,109 @@
+/* stylesheet for quiz app */
+
+:root {
+	--default: #606060;
+	--dark-bg: #282828;
+	--light: #F0F0F0;
+	--main-bg: #E0E0E0;
+	--highlight: #ff4500;
+}
+
+body {
+	font-family: Helevetica, sans-serif;
+	color: var(--default);
+	font-size: 14px;
+	line-height: 150%;
+	margin-top: 20px;
+	background-color: #F8F8F8;
+}
+
+dialog {
+	width: 40%; 
+	color: var(--light);
+	background-color: var(--dark-bg); 
+	padding: 10px 15px 15px 25px; 
+	border: none;
+}
+
+input:checked {
+	accent-color: var(--default);
+}
+
+header {
+	font-family: "Courier New", monospace;
+	text-align: right;
+	margin: 0 16%;
+}
+
+h2 {
+	display: inline;
+}
+
+nav {
+	margin: 0 15%;
+	overflow: hidden;
+	background-color: var(--dark-bg);
+}
+
+nav a {
+	float: left;
+	display: block;
+	color: var(--light);
+	text-align: center;
+	padding: 14px 4px;
+	margin: 0 16px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.next_enabled {
+	pointer-events: auto;
+	cursor: pointer;
+	opacity: 1;
+}
+
+.next_disabled {
+	pointer-events: none;
+	cursor: default;
+	opacity: .7;
+}
+
+main {
+	margin: 0 15%;
+	background-color: var(--main-bg);
+	padding: 20px 30px;
+}
+
+footer {
+	margin: 0 15%;
+	background-color: var(--light);
+	padding: 10px;
+	text-align: center;
+	font-size: 10px;
+}
+
+code {
+	font-weight: bold;
+}
+
+.buttons {
+	margin: 1px 10px;
+	padding: 8px 18px;
+	color: var(--light);
+	background-color: var(--dark-bg);
+	border-style: none;
+	cursor: pointer;
+}
+
+.buttons:disabled {
+	pointer-events: none;
+	cursor: none;
+	opacity: 0.6;
+}
+
+#score_wrap {
+	float: right; 
+	font-weight: bold;'
+}
+
+/* end */
