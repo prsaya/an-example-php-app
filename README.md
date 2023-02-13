@@ -6,7 +6,7 @@ The app reads quiz data from MySQL database (version 5.5 or higher) and shows th
 
 ---
 
-## NOTES on MySQL, SQL Script and PHP Configuration:
+## Notes on MySQL, SQL Script and PHP Configuration:
 
 * Basic steps to install MySQL 8 Server, create a sample database and query data:
 [mysql_server_install_and_use](https://gist.github.com/prsaya/1755f873071a12ef246c89e245e67bb5).
